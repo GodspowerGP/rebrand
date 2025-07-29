@@ -153,11 +153,10 @@
         
         /* Hero Section */
         .hero {
-            min-height: 100vh;
             display: flex;
             align-items: center;
             padding: 0 5%;
-            padding-top: 80px;
+            padding-top: 100px;
             position: relative;
             overflow: hidden;
         }
@@ -541,9 +540,15 @@
             .right {
                 left: 0;
             }
+            .hero-spin-logo{
+            width: 100% !important;
+            height:auto;
+            object-fit: contain;
+            }
         }
         
         @media (max-width: 768px) {
+            
             nav ul {
                 display: none;
             }
@@ -576,5 +581,7 @@
             }
         }
 .hero-spin-logo{
-    width: 100%;
+    width: 45%;
+    height:auto;
+    object-fit: contain;
 }
